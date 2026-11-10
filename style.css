@@ -1,5 +1,4 @@
 
-
 * {
     box-sizing: border-box;
 }
@@ -20,11 +19,6 @@ header {
 
 header h1 {
     font-size: 32px;
-    margin-bottom: 12px;
-}
-
-header p {
-    font-size: 17px;
 }
 
 main {
@@ -63,13 +57,11 @@ h2 {
 .lema {
     color: #8b50c7;
     font-weight: bold;
-    font-size: 18px;
 }
 
 .tarjetas {
     display: flex;
     gap: 20px;
-    justify-content: center;
 }
 
 .tarjeta {
@@ -92,14 +84,38 @@ h2 {
     color: #7042a5;
 }
 
-.tarjeta p {
-    line-height: 1.6;
-}
-
 .ingrediente {
     background-color: #f3efff;
     padding: 12px;
     border-radius: 10px;
+    font-weight: bold;
+}
+
+/* PROGRAMA */
+
+.programa {
+    background-color: white;
+}
+
+.actividad {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #f3efff;
+    padding: 12px 20px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+
+.actividad span {
+    background-color: #7042a5;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.actividad p {
     font-weight: bold;
 }
 
