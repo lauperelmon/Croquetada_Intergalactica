@@ -1,10 +1,146 @@
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
+
+* {
+    box-sizing: border-box;
 }
 
-h1 {
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3efff;
+    color: #30244a;
+}
+
+header {
+    background: linear-gradient(135deg, #28104e, #7042a5);
+    color: white;
     text-align: center;
+    padding: 55px 20px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+header p {
+    font-size: 17px;
+}
+
+main {
+    max-width: 1100px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+section {
+    margin-bottom: 35px;
+    padding: 30px;
+    border-radius: 18px;
+}
+
+h2 {
+    color: #7042a5;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.presentacion {
+    background-color: white;
+    text-align: center;
+    line-height: 1.7;
+}
+
+.datos {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin: 25px 0;
+    font-weight: bold;
+}
+
+.lema {
+    color: #8b50c7;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.tarjetas {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.tarjeta {
+    background-color: white;
+    padding: 25px;
+    border-radius: 18px;
+    flex: 1;
+    text-align: center;
+    border: 2px solid #e2d2f5;
+    box-shadow: 0 5px 15px rgba(48, 36, 74, 0.08);
+}
+
+.numero {
+    color: #a16bd1;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.tarjeta h3 {
+    color: #7042a5;
+}
+
+.tarjeta p {
+    line-height: 1.6;
+}
+
+.ingrediente {
+    background-color: #f3efff;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.votacion {
+    background-color: #e4d5f7;
+    text-align: center;
+    line-height: 1.7;
+}
+
+.advertencia {
+    background-color: white;
+    padding: 15px;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #28104e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+@media (max-width: 700px) {
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    .tarjetas {
+        flex-direction: column;
+    }
+
+    .datos {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    section {
+        padding: 20px;
+    }
+
 }
